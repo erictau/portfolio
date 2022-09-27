@@ -1,0 +1,9 @@
+.ProjectCard {
+    margin: 20px;
+    text-decoration: none;
+}
+
+
+.ProjectCard:hover {
+    background-color: gray;
+}

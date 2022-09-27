@@ -4,7 +4,7 @@ export default function SideBar() {
     return (
         <aside className='SideBar'>
             <div>
-                <img src="./profile_pic.jpg" alt="Profile Picture" width="200" height="200" />
+                <img src="./profile_pic.jpg" alt="Profile Headshot" width="200" height="200" />
             </div>
             <h1>Eric Tau</h1>
             <h3>Software Engineer</h3>

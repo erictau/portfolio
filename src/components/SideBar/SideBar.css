@@ -1,16 +1,19 @@
 .SideBar {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
-    height: 110vh;
+    height: 100vh;
     min-width: 225px;
-    background-color: darkslategray;
+    background-color: darkslategrey;
     padding: 10px;
+
+    color: whitesmoke;
 }
 
-.links {
-
+.SideBar img {
+    border-radius: 20%;
 }
+
 
 @media screen and (max-width: 992px) {
     .SideBar {
