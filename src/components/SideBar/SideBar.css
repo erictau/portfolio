@@ -1,0 +1,20 @@
+.SideBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 110vh;
+    min-width: 225px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+
+.links {
+
+}
+
+@media screen and (max-width: 992px) {
+    .SideBar {
+        transition: 1s ease-out;
+        display: none;
+    }
+}
